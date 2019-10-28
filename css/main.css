@@ -1,11 +1,16 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
+  color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 body {
@@ -14,18 +19,23 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  width: 10%;
 }
 
-.footer {
+.ruby {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 0;
+  padding: .5em 0;
   background-color: #d05c2e;
-  border-bottom: 40px solid #a63f38;
+  border-bottom: 3px solid #a63f38;
 }
 
 .topaz {
   display: flex;
   flex-direction: row;
+}
+
+.topaz a:hover {
+  background-color: #a63f38;
 }
